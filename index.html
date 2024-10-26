@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hamster Kombat</title>
+        <link rel="icon" href="title.png">
+        <style>
+            body {
+                background-color: rgb(72, 61, 102);
+                min-height: 100%;
+                min-width: 90%;
+            }
+
+            html, body {
+            cursor: url("normal.ico"), default;
+            cursor: url("click.ico"), pointer;
+            }
+            
+            #title1 {
+                color: white;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                rotate: 50;
+            }
+            
+            #button {
+                background-color: rgb(72, 61, 102);
+                cursor: pointer;
+                position: absolute;
+                transform: translateX(200%);
+                border: 2px solid rgb(110, 100, 138);
+                color: white;
+                text-shadow: 2px 2px 4px #000000;
+            }
+
+            #clickcount {
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                background-color: rgb(248, 221, 131);
+                text-align: center;
+                color: whitesmoke;
+                transform: translateY(1200%);
+                animation-timing-function: ease-in;
+                animation-duration: 2s;
+            }
+
+            #block {
+                display: block;
+                border: 10px solid rgb(69, 72, 121);
+                border-radius: 6px;
+                background-color: rgb(54, 55, 114);
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                transform: translateY(350%) translateX(140%);
+                width: 350px;
+                height: 100px;
+                font-size: 25px;
+                cursor: no-drop;
+            }
+
+            #pizza {
+                transform: translateY(200%) translateX(10%);
+                border: 15px solid rgb(248, 107, 107);
+                border-radius: 10px;
+                background-color: rgb(214, 107, 107);
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 50px;
+            }
+
+            #creator {
+                transform: translateY(1000%) translateX(-50%);
+                font-size: 50px;
+            }
+
+            #box {
+                c
+            }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h2 id="title1">Hamster Kombat!</h2>
+        <button id="button" onclick="add()"><img src="buttonhamster.webp"></button>
+        <p id="clickcount">Coins: 0</p>
+        <button id="block">Hamster Music!!111!!! Press button111!!</button>
+        <button id="pizza" href="https://www.ubereats.com/near-me/pizza?srsltid=AfmBOoqZoGlVJIYZPdFDjgRiOAWdW8Hu-qElWtZdZxlsEJX2Pn38TxYU"</button>Delivery pizza <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2lbyhDSJC0vUlX-2S7XSwmQkLqGXsq6Pw6g&s"></a></button>
+        <button id="creator"><a href="https://t3.ftcdn.net/jpg/00/24/18/72/360_F_24187273_ZAUzLhRCvRykzh8SDuQwjAvlvafN4N3T.jpg">Who made this stupid website</a></button>
+        <div class="box" id="h"></div>
+    </body>
+    <script src="javascript.js"></script>
+</html>
